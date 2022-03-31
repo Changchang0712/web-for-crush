@@ -1,0 +1,17 @@
+@echo off
+color 57
+echo Em co yeu anh khong (Tra loi CO hoac KHONG)
+set /p love=
+if %love%==co goto love
+if %love%==khong goto hate
+:love
+echo Anh yeu em nhieu lam
+echo Love you too
+pause
+exit
+:hate
+echo Nhung anh yeu em…
+echo Neu em da tu choi…
+echo May tinh cua em se bi tat trong 8 giay
+timeout 8
+shutdown -s -t 8
